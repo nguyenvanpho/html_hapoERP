@@ -18,20 +18,22 @@
     font-family: 'Roboto-Medium';
     src: url(../fonts/Roboto-Medium.ttf);  
 } 
-body{
+
+
+body {
 	margin: 0px;
 	padding: 0px;
 }
-.clear{
+.clear {
 	clear: both;
 }
-.rectangle{
+.header {
 	height: 873px;
 	width: 1920px;
-	background-image: url("../images/Rectangle.jpg");
+	background-image: url("../images/banner.jpg");
 	background-repeat: no-repeat;
 }
-.signIn input {	
+.sign-in input {	
 	height: 36px;	
 	width: 82px;	
 	border: 2px solid #8BC34A;	
@@ -39,63 +41,60 @@ body{
 	color: #8BC34A;
 	margin-left: 1448px;
 }
-.about{
+.about {
 	display: inline-block;
 	width: 1px;
 }
-.about-us img{
+.about-us img {
 	margin-top: 53px;
 	margin-left: 1344px;
 }
-.signIn{
+.sign-in {
 	display:inline-block;
 }
-.logo img{
+.logo img {
 	margin-left: 832px;
 	margin-right: 832px;
 	margin-top: 165px;
 	width: 256px;
 	height: 74px;
 }
-.icon{	
-	margin-top: 53px;
-}
-.icon-161{
+.icon-general {
 	float: left;
 	width: 52px;
+}
+.icon-161 {
 	margin-left: 607px;
 }
-.icon-199{
-	float: left;
-	width: 52px;
+.icon-199 {
 	margin-left: 267px;
 }
-.icon-113{
-	float: left;
-	width: 52px;
+.icon-113 {
 	margin-left: 252px;
 }
-.ti-gift{
+.icon-theme {
 	font-size: 48px;
 }
-.ti-alarm-clock{
-	font-size: 48px;	
-}
-.ti-thumb-up{
-	font-size: 48px;	
-}
-.better{
-	width: 96px;
+.icon {	
+	margin-top: 53px;
 	height: 48px;
-	margin-left: 585px;	
 }
-.faster{
-	margin-left: 910px;
+.icon-text {
+	margin-left: 585px;
+	height: 50px;
 }
-.together{
-	margin-left: 1194px;
+.text-general {
+	float: left;
+	width: 96px;
+	height: 50px;
 }
-.better span{
+.faster {
+	margin-left: 229px;
+}
+.together {
+	margin-left: 183px;
+}
+.text-general span {
 	height: 48px;	
 	width: 101px;	
 	color: #283238;	
@@ -103,28 +102,6 @@ body{
 	font-weight: 300;	
 	line-height: 48px;
 	float: left;
-	margin-top: 14px;
-	font-family: Roboto-Light;
-}
-.faster span{
-	float: left;
-	height: 48px;	
-	width: 101px;	
-	color: #283238;	
-	font-size: 36px;	
-	font-weight: 300;	
-	line-height: 48px;
-	margin-top: 14px;
-	font-family: Roboto-Light;
-}
-.together span{
-	float: left;
-	height: 48px;	
-	width: 101px;	
-	color: #283238;		
-	font-size: 36px;	
-	font-weight: 300;	
-	line-height: 48px;
 	margin-top: 14px;
 	font-family: Roboto-Light;
 }
@@ -139,31 +116,20 @@ body{
 	margin-top: 115px;
 	font-family: Roboto-Regular;
 }
-.rectangle-start{	
-	height: 60px;	
-	width: 225px;	
-	border-radius: 100px;	
-	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-	color: white;
-	margin-left: 847px;
-	margin-top: 22px;
-	margin-bottom: 232px;
-}
-.mask {
+.i-learnt {
 	margin-top: 0px;
 	height: 661px;
 	width: 1920px;
 	background-color: #FFFFFF;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-.mark-left{
+.mark-left {
 	width: 666px;
 	margin-left: 181px;
 	padding-top: 52px;
 	float: left;
 }
-.mark-right{
+.mark-right {
 	float: left;
 	width: 660px;
 	margin-left: 128px;
@@ -180,7 +146,7 @@ body{
 	padding-left: 19px;
 	font-family: Roboto-Light;
 }
-.ti-bookmark-alt{
+.ti-bookmark-alt {
 	float: left;
 	height: 36px;	
 	width: 36px;	
@@ -198,7 +164,7 @@ body{
 	padding-top: 16px;
 	font-family: Roboto-Medium;
 }
-.text-lorem{
+.text-lorem {
 	display:inline-block;
 	height: 168px;
 	width: 555px;
@@ -209,7 +175,7 @@ body{
 	padding-top: 38px;
 	font-family: Roboto-Medium;
 } 
-.rectangle-start-one{
+.start-now {
 	height: 60px;	
 	width: 225px;	
 	border-radius: 100px;	
@@ -218,31 +184,27 @@ body{
 	color: white;
 	margin-left: 0px;
 	margin-top: 40px;
+}
+.rectangle-start {	
+	margin-left: 847px !important;
+	margin-top: 22px !important;
+	margin-bottom: 232px !important;
+}
+.rectangle-start-one {
 	margin-bottom: 128px;
 }
-.rectangle-start-two{
-	height: 60px;	
-	width: 225px;	
-	border-radius: 100px;	
-	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-	color: white;
-	margin-left: 0px;
-	margin-top: 40px;
+.rectangle-start-two {
 	margin-bottom: 76px;
 }
-.masks {
+.mark-daily-report {
 	margin-top: 10px;
-	height: 640px;
-	width: 1920px;
-	background-color: #FFFFFF;
 }
 .mark-project {
 	height: 640px;
 	width: 1920px;
 	background-color: #FFFFFF;
 }
-.ti-write{
+.ti-write {
 	float: left;
 	height: 36px;	
 	width: 36px;	
@@ -262,7 +224,7 @@ body{
 	margin-top: 158px;
 	font-family: Roboto-Light;
 }
-.marks-left-01{
+.marks-left-01 {
 	height:640px;
 	width: 477px;
 	margin-left: 390px;
@@ -279,7 +241,7 @@ body{
 	padding-top: 16px;
 	font-family: Roboto-Medium;
 }
-.text-lorem-02{
+.text-lorem-02 {
 	display:inline-block;
 	height: 168px;
 	width: 475px;
@@ -290,12 +252,12 @@ body{
 	padding-top: 30px;
 	font-family: Roboto-Medium;
 }
-.marks-right{
+.marks-right {
 	float: left;
 	width: 660px;
 	margin-left: 194px;	
 }
-.marks-right img{
+.marks-right img {
 	width: 858px;
 	height: 777px;
 }
@@ -304,22 +266,22 @@ body{
 	width: 1920px;
 	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
-.rectangle-3 ul{
+.rectangle-3 ul {
 	padding: 0px;
 }
-.icon-daily-report{
+.icon-daily-report {
 	margin-left: 391.75px;
 }
-.rectangle-3 ul li{
+.rectangle-3 ul li {
 	list-style: none;
 	padding-right: 145px;
 	float: left;
 }
-.one{
+.one {
 	padding-top: 68.75px;
 	height: 200px;
 }
-.icon-one{
+.icon-one {
 	height: 36px;	
 	width: 36px;	
 	color: white;	
@@ -328,7 +290,7 @@ body{
 	margin-top: 35px;
 	margin-left: 33px;
 }
-.daily-report-one {
+.daily-report-general {
 	height: 24px;
 	color: #FFFFFF;
 	font-size: 18px;
@@ -337,49 +299,15 @@ body{
 	line-height: 24px;
 	margin-top: 28.75px;
 	font-family: Roboto-Medium;
-}
-.daily-report-two {
-	font-family: Roboto-Medium;
-	height: 24px;
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	line-height: 24px;
-	margin-top: 28.75px;
 }
 .daily-report-three {
-	height: 24px;
 	margin-left:-27px;
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	line-height: 24px;
-	margin-top: 28.75px;
-	font-family: Roboto-Medium;
 }
 .daily-report-four {
-	height: 24px;
 	margin-left:-38px;
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	line-height: 24px;
-	margin-top: 28.75px;
-	font-family: Roboto-Medium;
 }
 .daily-report-five {
-	height: 24px;
 	margin-left:-35px;
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	line-height: 24px;
-	margin-top: 28.75px;
-	font-family: Roboto-Medium;
 }
 .ti-user{
 	float: left;
@@ -408,16 +336,16 @@ body{
 	margin-top: 111px;
 	font-family:Roboto-Light;
 }
-.text-lorem-member{
+.text-lorem-member {
 	width: 564px;
 	color: #283238;
 	font-size: 13px;
 	line-height: 24px;
-	text-align:justify;
+	text-align: justify;
 	margin-top: 30px;
 	padding-bottom: 30px;
 }
-.ti-check-box{
+.ti-check-box {
 	float: left;
 	color: #8BC34A;
 	padding-top: 5px;	
@@ -425,7 +353,7 @@ body{
 	height: 24px;	
 	width: 18px;
 }
-.text-lorem-member span{
+.text-lorem-member span {
 	float: left;
 	height: 50px;	
 	width: 519px;	
@@ -436,17 +364,17 @@ body{
 	padding-left: 18px;
 	font-family: Roboto-Medium;
 }
-.marks-right-member img{
+.marks-right-member img {
 	width: 510px;
 	height: 400px;
 }
-.marks-right-member{
+.marks-right-member {
 	float: left;
 	width: 510px;
 	margin-top: 97px;
 	margin-left: 45px;
 }
-.marks-left-member{
+.marks-left-member {
 	height: 634px;
     width: 560px;
     margin-left: 390px;
@@ -456,68 +384,50 @@ body{
 	height: 663px;
 	width: 1920px;
 }
-.ti-face-smile{
+.ti-face-smile {
 	float: left;
 	height: 36px;	
 	width: 36px;	
 	color: #444444;	
 	font-size: 36px;	
 }
-.ti-unlock{
+.themify-general {
 	float: left;
 	color: #8BC34A;
 	padding-top: 5px;	
 	font-size: 18px;
-	height: 24px;	
-	width: 18px;
-}
-.ti-cup{
-	float: left;
-	color: #8BC34A;
-	padding-top: 5px;	
-	font-size: 18px;
-	height: 24px;	
-	width: 18px;
-}
-.ti-stats-up{
-	float: left;
-	color: #8BC34A;
-	padding-top: 5px;	
-	font-size: 18px;
-	height: 24px;	
-	width: 18px;
 }
 .rectangle-our-customers {
 	height: 544px;
 	width: 1920px;
 	background-color: rgba(40,50,56,0.9);
-	background-image: url('../images/Rectangle 3.jpg');
+	background-image: url('../images/our_customers.jpg');
 }
-.our-customers-employees{
+.our-customers-employees {
 	padding-top: 48px;
 	padding-left: 398px;
 	height: 127px;
 }
-.our-customers-avatar{
+.our-customers-avatar {
 	float: left;
 	padding-right: 69.64px;
 	height: 80px;
 }
-.our-customers-name{
+.our-customers-name {
 	margin-top: 16px;
 	margin-bottom: 256px;
 	text-align: center;
 	width: 80px;
 	font-family: Roboto-Light;
 }
-.our-customers-name span{
+.our-customers-name span {
 	display: block;
 	color: #FFFFFF;
 	font-size: 10px;
 	font-weight: 300;
 	line-height: 14px;	
 }
-.our-customers-name label{
+.our-customers-name label {
 	display: block;
 	color: #FFFFFF;
 	font-weight: 300;
@@ -535,7 +445,7 @@ body{
 	margin-left: 816px;
 	padding-top: 50px;
 }
-.ti-calendar{
+.ti-calendar {
 	float: left;
 	height: 36px;	
 	width: 36px;	
@@ -555,12 +465,12 @@ body{
 	margin-top: 97px;
 	font-family: Roboto-Light;
 }
-.marks-right-project{
+.marks-right-project {
 	float: left;
 	width: 660px;
 	margin-left: 131.3px;	
 }
-.marks-right-project img{
+.marks-right-project img {
 	width: 858px;
 	height: 636px;
 }
@@ -571,7 +481,7 @@ body{
 	background-color: #39474E;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-.mask-footer-column-1{
+.mask-footer-column-1 {
 	margin-top: 45px;
 	margin-left: 389px;
 	float: left;
@@ -612,57 +522,42 @@ body{
 	line-height: 20px;
 	font-family: Roboto-Medium;
 }
-.mask-footer-column-2{
+.mask-footer-column-2 {
 	margin-top: 54px;
 	margin-left: 100px;
 	float: left;
 }
-.ti-facebook {
-	height: 0.25%;
-	width: 0.68%;
-	color: #8BC34A;
-	font-size: 13px;
-	float: left;
-}
 .ti-twitter {
-	height: 0.25%;
-	width: 0.68%;
-	color: #8BC34A;
-	font-size: 13px;
-	float: left;
 	margin-left: 38px;
 }
 .ti-youtube {
-	height: 0.25%;
-	width: 0.68%;
-	color: #8BC34A;
-	font-size: 13px;
-	float: left;
 	margin-left: 38px;
 }
 .ti-linkedin {
-	height: 0.25%;
-	width: 0.68%;
+	margin-left: 38px;
+}
+.themify-general-footer {
+	height: 13px;
+	width: 13px;
 	color: #8BC34A;
 	font-size: 13px;
 	float: left;
-	margin-left: 38px;
 }
-.mask-footer-contact{
+.mask-footer-contact {
 	margin-left: 1365px;
 	margin-top: 108px;
 }
-.our-customers-layout{
+.our-customers-layout {
 	margin-top: 24px;
 	height: 12px;
 	width: 1920px;
 }
-.customers-layout{
+.customers-layout {
 	margin-left: 923px;
 	height: 12px;
 	float: none;
 }
-.oval-3{
+.oval-3 {
 	float: left;
 	height: 10px;
 	width: 10.71px;
@@ -677,23 +572,20 @@ body{
 	width: 10.71px;
 	border: 1px solid #979797;
 }
-.our-customers-introduce{
+.our-customers-introduce {
 	height: 217px;
 }
-.ti-quote-left{
+.themify-our-customer-general {
 	height: 73px;
 	width: 72px;
 	opacity: 0.4;
 	color: #FFFFFF;
 	font-size: 72px;
+}
+.ti-quote-left {
 	margin-left: 487px;
 }
-.ti-quote-right{
-	height: 73px;
-	width: 72px;
-	opacity: 0.4;
-	color: #FFFFFF;
-	font-size: 72px;
+.ti-quote-right {
 	margin-left: 1362px;
 	margin-bottom: 29px;
 	margin-top: -27px;
