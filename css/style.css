@@ -1,14 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.ttf');  
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);  
+}
+ @font-face {
+    font-family: 'Roboto-Condensed';
+    src: url(../fonts/Roboto-Condensed.ttf);  
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf);  
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../fonts/Roboto-Medium.ttf);  
+} 
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: Roboto;
 }
 .clear{
 	clear: both;
 }
 .rectangle{
-	height: 875px;
+	height: 873px;
 	width: 1920px;
 	background-image: url("../images/Rectangle.jpg");
 	background-repeat: no-repeat;
@@ -19,28 +37,25 @@ body{
 	border: 2px solid #8BC34A;	
 	border-radius: 100px;
 	color: #8BC34A;
-	margin-left: 38px;
+	margin-left: 1448px;
 }
 .about{
-	display: inline;
-	height: 16px;
-	width: 66px;
-
+	display: inline-block;
+	width: 1px;
 }
-.about a img{
+.about-us img{
 	margin-top: 53px;
 	margin-left: 1344px;
 }
 .signIn{
-	display: inline;
+	display:inline-block;
 }
-
 .logo img{
 	margin-left: 832px;
 	margin-right: 832px;
 	margin-top: 165px;
 	width: 256px;
-	height: 77px;
+	height: 74px;
 }
 .icon{	
 	margin-top: 53px;
@@ -60,33 +75,27 @@ body{
 	width: 52px;
 	margin-left: 252px;
 }
+.ti-gift{
+	font-size: 48px;
+}
+.ti-alarm-clock{
+	font-size: 48px;	
+}
+.ti-thumb-up{
+	font-size: 48px;	
+}
 .better{
-	font-size: 48px;
-
-}
-.faster{
-	font-size: 48px;
-	
-}
-.together{
-	font-size: 48px;
-	
-}
-.Better{
 	width: 96px;
 	height: 48px;
 	margin-left: 585px;	
-
 }
-.Faster{
+.faster{
 	margin-left: 910px;
-
 }
-.Together{
+.together{
 	margin-left: 1194px;
 }
-
-.Better span{
+.better span{
 	height: 48px;	
 	width: 101px;	
 	color: #283238;	
@@ -95,8 +104,9 @@ body{
 	line-height: 48px;
 	float: left;
 	margin-top: 14px;
+	font-family: Roboto-Light;
 }
-.Faster span{
+.faster span{
 	float: left;
 	height: 48px;	
 	width: 101px;	
@@ -105,8 +115,9 @@ body{
 	font-weight: 300;	
 	line-height: 48px;
 	margin-top: 14px;
+	font-family: Roboto-Light;
 }
-.Together span{
+.together span{
 	float: left;
 	height: 48px;	
 	width: 101px;	
@@ -115,18 +126,20 @@ body{
 	font-weight: 300;	
 	line-height: 48px;
 	margin-top: 14px;
+	font-family: Roboto-Light;
 }
 .lorem-ipsum-is-simpl {	
 	height: 24px;	
-	width: 600px;	
+	width: 604px;	
 	color: #283238;	
 	font-size: 18px;	
 	font-style: italic;	
 	line-height: 24px;
 	margin-left: 698px;
 	margin-top: 115px;
+	font-family: Roboto-Regular;
 }
-.rectangle-2-copy{	
+.rectangle-start{	
 	height: 60px;	
 	width: 225px;	
 	border-radius: 100px;	
@@ -135,28 +148,26 @@ body{
 	color: white;
 	margin-left: 847px;
 	margin-top: 22px;
+	margin-bottom: 232px;
 }
 .mask {
 	margin-top: 0px;
-	height: 666px;
+	height: 661px;
 	width: 1920px;
 	background-color: #FFFFFF;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-
 .mark-left{
-	height:634px;
-	width: 661px;
+	width: 666px;
 	margin-left: 181px;
 	padding-top: 52px;
 	float: left;
 }
 .mark-right{
 	float: left;
-	/*height: 641px;*/
 	width: 660px;
 	margin-left: 128px;
-	margin-top: 144px;
+	padding-top: 144px;
 }
 .today-i-learnt {
 	height: 63px;
@@ -167,6 +178,7 @@ body{
 	line-height: 38px;
 	float: left;
 	padding-left: 19px;
+	font-family: Roboto-Light;
 }
 .ti-bookmark-alt{
 	float: left;
@@ -184,6 +196,7 @@ body{
 	font-style: italic;
 	line-height: 19px;
 	padding-top: 16px;
+	font-family: Roboto-Medium;
 }
 .text-lorem{
 	display:inline-block;
@@ -194,8 +207,9 @@ body{
 	line-height: 24px;
 	text-align:justify;
 	padding-top: 38px;
-}
-.rectangle-3-copy{
+	font-family: Roboto-Medium;
+} 
+.rectangle-start-one{
 	height: 60px;	
 	width: 225px;	
 	border-radius: 100px;	
@@ -204,11 +218,27 @@ body{
 	color: white;
 	margin-left: 0px;
 	margin-top: 40px;
+	margin-bottom: 128px;
 }
-
+.rectangle-start-two{
+	height: 60px;	
+	width: 225px;	
+	border-radius: 100px;	
+	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	color: white;
+	margin-left: 0px;
+	margin-top: 40px;
+	margin-bottom: 76px;
+}
 .masks {
 	margin-top: 10px;
-	height: 666px;
+	height: 640px;
+	width: 1920px;
+	background-color: #FFFFFF;
+}
+.mark-project {
+	height: 640px;
 	width: 1920px;
 	background-color: #FFFFFF;
 }
@@ -230,22 +260,24 @@ body{
 	line-height: 36px;
 	margin-left: 18px;
 	margin-top: 158px;
+	font-family: Roboto-Light;
 }
 .marks-left-01{
-	height:634px;
+	height:640px;
 	width: 477px;
 	margin-left: 390px;
 	float: left;
 }
-.lorem-ipsum-is-simpl-copy_01 {
+.lorem-ipsum-is-simpl-member {
 	display: inline-block;
 	height: 19px;
-	width: 465px;
+	width: 470px;
 	color: #283238;
 	font-size: 14px;
 	font-style: italic;
 	line-height: 19px;
 	padding-top: 16px;
+	font-family: Roboto-Medium;
 }
 .text-lorem-02{
 	display:inline-block;
@@ -256,6 +288,7 @@ body{
 	line-height: 24px;
 	text-align:justify;
 	padding-top: 30px;
+	font-family: Roboto-Medium;
 }
 .marks-right{
 	float: left;
@@ -274,6 +307,9 @@ body{
 .rectangle-3 ul{
 	padding: 0px;
 }
+.icon-daily-report{
+	margin-left: 391.75px;
+}
 .rectangle-3 ul li{
 	list-style: none;
 	padding-right: 145px;
@@ -283,7 +319,6 @@ body{
 	padding-top: 68.75px;
 	height: 200px;
 }
-
 .icon-one{
 	height: 36px;	
 	width: 36px;	
@@ -293,7 +328,18 @@ body{
 	margin-top: 35px;
 	margin-left: 33px;
 }
-.daily-report_01 {
+.daily-report-one {
+	height: 24px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 24px;
+	margin-top: 28.75px;
+	font-family: Roboto-Medium;
+}
+.daily-report-two {
+	font-family: Roboto-Medium;
 	height: 24px;
 	color: #FFFFFF;
 	font-size: 18px;
@@ -302,16 +348,7 @@ body{
 	line-height: 24px;
 	margin-top: 28.75px;
 }
-.daily-report_02 {
-	height: 24px;
-	color: #FFFFFF;
-	font-size: 18px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	line-height: 24px;
-	margin-top: 28.75px;
-}
-.daily-report_03 {
+.daily-report-three {
 	height: 24px;
 	margin-left:-27px;
 	color: #FFFFFF;
@@ -320,8 +357,9 @@ body{
 	letter-spacing: 1px;
 	line-height: 24px;
 	margin-top: 28.75px;
+	font-family: Roboto-Medium;
 }
-.daily-report_04 {
+.daily-report-four {
 	height: 24px;
 	margin-left:-38px;
 	color: #FFFFFF;
@@ -330,8 +368,9 @@ body{
 	letter-spacing: 1px;
 	line-height: 24px;
 	margin-top: 28.75px;
+	font-family: Roboto-Medium;
 }
-.daily-report_05 {
+.daily-report-five {
 	height: 24px;
 	margin-left:-35px;
 	color: #FFFFFF;
@@ -340,6 +379,7 @@ body{
 	letter-spacing: 1px;
 	line-height: 24px;
 	margin-top: 28.75px;
+	font-family: Roboto-Medium;
 }
 .ti-user{
 	float: left;
@@ -350,9 +390,11 @@ body{
 	margin-top: 111px;
 }
 .mask_member {
-	height: 666px;
+	height: 586px;
 	width: 1920px;
 	background-color: #FFFFFF;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
+	font-family: Roboto-Medium;
 }
 .daily-report-member {
 	float: left;
@@ -364,6 +406,7 @@ body{
 	line-height: 36px;
 	margin-left: 18px;
 	margin-top: 111px;
+	font-family:Roboto-Light;
 }
 .text-lorem-member{
 	width: 564px;
@@ -391,10 +434,9 @@ body{
 	line-height: 24px;	
 	text-align: justify;
 	padding-left: 18px;
+	font-family: Roboto-Medium;
 }
 .marks-right-member img{
-	/*margin-top: 97px;
-	margin-left: 45px;*/
 	width: 510px;
 	height: 400px;
 }
@@ -454,24 +496,26 @@ body{
 .our-customers-employees{
 	padding-top: 48px;
 	padding-left: 398px;
+	height: 127px;
 }
 .our-customers-avatar{
 	float: left;
 	padding-right: 69.64px;
+	height: 80px;
 }
 .our-customers-name{
 	margin-top: 16px;
 	margin-bottom: 256px;
 	text-align: center;
 	width: 80px;
+	font-family: Roboto-Light;
 }
 .our-customers-name span{
 	display: block;
 	color: #FFFFFF;
 	font-size: 10px;
 	font-weight: 300;
-	line-height: 14px;
-	
+	line-height: 14px;	
 }
 .our-customers-name label{
 	display: block;
@@ -484,14 +528,13 @@ body{
 	height: 63px;
 	width: 300px;
 	color: #FFFFFF;
-	font-family: Roboto;
+	font-family: Roboto-Light;
 	font-size: 48px;
 	font-weight: 300;
 	line-height: 63px;
 	margin-left: 816px;
 	padding-top: 50px;
 }
-/**/
 .ti-calendar{
 	float: left;
 	height: 36px;	
@@ -510,6 +553,7 @@ body{
 	line-height: 36px;
 	margin-left: 18px;
 	margin-top: 97px;
+	font-family: Roboto-Light;
 }
 .marks-right-project{
 	float: left;
@@ -518,7 +562,7 @@ body{
 }
 .marks-right-project img{
 	width: 858px;
-	height: 777px;
+	height: 636px;
 }
 .mask-footer {
 	height: 180px;
@@ -536,7 +580,7 @@ body{
 	height: 29px;
 	width: 96px;
 	color: #AED581;
-	font-family: Enso;
+	font-family: Roboto-Medium;
 	font-size: 24px;
 	line-height: 29px;
 }
@@ -548,6 +592,7 @@ body{
 	font-weight: 500;
 	line-height: 13px;
 	margin-top: 36px;
+	font-family: Roboto-Medium;
 }
 .get-in-touch {
 	height: 18px;
@@ -556,6 +601,7 @@ body{
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 18px;
+	font-family: Roboto-Medium;
 }
 .about-us-about-hapo {
 	height: 40px;
@@ -564,6 +610,7 @@ body{
 	font-size: 10px;
 	font-weight: 500;
 	line-height: 20px;
+	font-family: Roboto-Medium;
 }
 .mask-footer-column-2{
 	margin-top: 54px;
@@ -604,4 +651,62 @@ body{
 .mask-footer-contact{
 	margin-left: 1365px;
 	margin-top: 108px;
+}
+.our-customers-layout{
+	margin-top: 24px;
+	height: 12px;
+	width: 1920px;
+}
+.customers-layout{
+	margin-left: 923px;
+	height: 12px;
+	float: none;
+}
+.oval-3{
+	float: left;
+	height: 10px;
+	width: 10.71px;
+	background-color: #D8D8D8;
+	border-radius: 100px;
+}
+.oval-3-copy {
+	float: left;
+	margin-left: 22.97px;
+	border-radius: 100px;
+	height: 10px;
+	width: 10.71px;
+	border: 1px solid #979797;
+}
+.our-customers-introduce{
+	height: 217px;
+}
+.ti-quote-left{
+	height: 73px;
+	width: 72px;
+	opacity: 0.4;
+	color: #FFFFFF;
+	font-size: 72px;
+	margin-left: 487px;
+}
+.ti-quote-right{
+	height: 73px;
+	width: 72px;
+	opacity: 0.4;
+	color: #FFFFFF;
+	font-size: 72px;
+	margin-left: 1362px;
+	margin-bottom: 29px;
+	margin-top: -27px;
+}
+.our-customers-content {
+	height: 90px;
+	width: 750px;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	text-align: justify;
+	margin-left: 586px;
+	margin-top: -18px;
+	font-family: Roboto-Light;
 }
