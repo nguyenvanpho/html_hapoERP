@@ -123,13 +123,13 @@ body {
 	background-color: #FFFFFF;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-.mark-left {
+.i-learnt-left {
 	width: 666px;
 	margin-left: 181px;
 	padding-top: 52px;
 	float: left;
 }
-.mark-right {
+.i-learnt-right {
 	float: left;
 	width: 660px;
 	margin-left: 128px;
@@ -162,7 +162,6 @@ body {
 	font-style: italic;
 	line-height: 19px;
 	padding-top: 16px;
-	font-family: Roboto-Medium;
 }
 .text-lorem {
 	display: inline-block;
@@ -173,7 +172,6 @@ body {
 	line-height: 24px;
 	text-align: justify;
 	padding-top: 38px;
-	font-family: Roboto-Medium;
 } 
 .start-now {
 	height: 60px;	
@@ -182,7 +180,6 @@ body {
 	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 	color: white;
-	margin-left: 0px;
 	margin-top: 40px;
 }
 .rectangle-start {	
@@ -224,7 +221,7 @@ body {
 	margin-top: 158px;
 	font-family: Roboto-Light;
 }
-.marks-left-01 {
+.daily-report-left {
 	height:640px;
 	width: 477px;
 	margin-left: 390px;
@@ -239,7 +236,6 @@ body {
 	font-style: italic;
 	line-height: 19px;
 	padding-top: 16px;
-	font-family: Roboto-Medium;
 }
 .text-lorem-02 {
 	display: inline-block;
@@ -250,14 +246,13 @@ body {
 	line-height: 24px;
 	text-align: justify;
 	padding-top: 30px;
-	font-family: Roboto-Medium;
 }
-.marks-right {
+.daily-report-right {
 	float: left;
 	width: 660px;
 	margin-left: 194px;	
 }
-.marks-right img {
+.daily-report-right img {
 	width: 858px;
 	height: 777px;
 }
@@ -310,13 +305,13 @@ body {
 	margin-left: 122px;
 }
 .daily-report-two {
-	margin-left: 138px;
+	margin-left: 132px;
 }
 .daily-report-four {
-	margin-left: 65px;
+	margin-left: 67px;
 }
 .daily-report-five {
-	margin-left: 63px;
+	margin-left: 66px;
 }
 .ti-user {
 	float: left;
@@ -331,7 +326,6 @@ body {
 	width: 1920px;
 	background-color: #FFFFFF;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
-	font-family: Roboto-Medium;
 }
 .daily-report-member {
 	float: left;
@@ -343,7 +337,6 @@ body {
 	line-height: 36px;
 	margin-left: 18px;
 	margin-top: 111px;
-	font-family:Roboto-Light;
 }
 .text-lorem-member {
 	width: 564px;
@@ -389,7 +382,7 @@ body {
     margin-left: 390px;
     float: left;
 }
-.mask-customers {
+.mark-customers {
 	height: 663px;
 	width: 1920px;
 }
@@ -447,7 +440,6 @@ body {
 	height: 63px;
 	width: 300px;
 	color: #FFFFFF;
-	font-family: Roboto-Light;
 	font-size: 48px;
 	font-weight: 300;
 	line-height: 63px;
@@ -472,7 +464,6 @@ body {
 	line-height: 36px;
 	margin-left: 18px;
 	margin-top: 97px;
-	font-family: Roboto-Light;
 }
 .marks-right-project {
 	float: left;
@@ -499,28 +490,23 @@ body {
 	height: 29px;
 	width: 96px;
 	color: #AED581;
-	font-family: Roboto-Medium;
 	font-size: 24px;
 	line-height: 29px;
 }
 .copyright-2017 {
-	height: 13px;
 	width: 69px;
 	color: #D0D8DC;
 	font-size: 10px;
 	font-weight: 500;
 	line-height: 13px;
 	margin-top: 36px;
-	font-family: Roboto-Medium;
 }
 .get-in-touch {
-	height: 18px;
 	width: 100px;
 	color: #8BC34A;
 	font-size: 13px;
 	font-weight: 500;
 	line-height: 18px;
-	font-family: Roboto-Medium;
 }
 .about-us-about-hapo {
 	height: 40px;
@@ -529,7 +515,6 @@ body {
 	font-size: 10px;
 	font-weight: 500;
 	line-height: 20px;
-	font-family: Roboto-Medium;
 }
 .mask-footer-column-2 {
 	margin-top: 54px;
@@ -609,8 +594,17 @@ body {
 	text-align: justify;
 	margin-left: 586px;
 	margin-top: -18px;
-	font-family: Roboto-Light;
 }
 .start-now:hover {
 	background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
+}
+.btn-sign-in:hover {
+	background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
+	color: white;
+}
+.font-general-medium {
+	font-family: Roboto-Medium;
+}
+.font-general-light {
+	font-family: Roboto-Light;
 }
