@@ -1,25 +1,23 @@
 @font-face {
-    font-family: 'Roboto-Light';
-    src: url('../fonts/Roboto-Light.ttf');  
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light.ttf');  
 }
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url(../fonts/Roboto-Regular.ttf);  
+	font-family: 'Roboto-Regular';
+	src: url(../fonts/Roboto-Regular.ttf);  
 }
  @font-face {
-    font-family: 'Roboto-Condensed';
-    src: url(../fonts/Roboto-Condensed.ttf);  
+	font-family: 'Roboto-Condensed';
+	src: url(../fonts/Roboto-Condensed.ttf);  
 }
 @font-face {
-    font-family: 'Roboto-Bold';
-    src: url(../fonts/Roboto-Bold.ttf);  
+	font-family: 'Roboto-Bold';
+	src: url(../fonts/Roboto-Bold.ttf);  
 }
 @font-face {
-    font-family: 'Roboto-Medium';
-    src: url(../fonts/Roboto-Medium.ttf);  
+	font-family: 'Roboto-Medium';
+	src: url(../fonts/Roboto-Medium.ttf);  
 } 
-
-
 body {
 	margin: 0px;
 	padding: 0px;
@@ -62,20 +60,18 @@ body {
 .icon-general {
 	float: left;
 	width: 52px;
-}
-.icon-161 {
-	margin-left: 607px;
-}
-.icon-199 {
-	margin-left: 267px;
-}
-.icon-113 {
-	margin-left: 252px;
-}
-.icon-theme {
 	font-size: 48px;
 }
-.icon {	
+.ti-gift {
+	margin-left: 607px;
+}
+.ti-alarm-clock {
+	margin-left: 276px;
+}
+.ti-thumb-up {
+	margin-left: 252px;
+}
+.icon-theme {	
 	margin-top: 53px;
 	height: 48px;
 }
@@ -113,12 +109,12 @@ body {
 	font-style: italic;	
 	line-height: 24px;
 	margin-left: 698px;
-	margin-top: 115px;
+	margin-top: 53px;
 	font-family: Roboto-Regular;
 }
 .i-learnt {
 	margin-top: 0px;
-	height: 661px;
+	height: 666px;
 	width: 1920px;
 	background-color: #FFFFFF;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
@@ -173,6 +169,15 @@ body {
 	text-align: justify;
 	padding-top: 38px;
 } 
+.text-lorem p {
+	margin: 0px;
+}
+.text-lorem-report p {
+	margin: 0px;
+}
+.our-customers-content p{
+	margin: 0px;
+}
 .start-now {
 	height: 60px;	
 	width: 225px;	
@@ -180,6 +185,7 @@ body {
 	background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);	
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 	color: white;
+	border: none;
 	margin-top: 40px;
 }
 .rectangle-start {	
@@ -197,7 +203,7 @@ body {
 	margin-top: 10px;
 }
 .mark-project {
-	height: 640px;
+	height: 610px;
 	width: 1920px;
 	background-color: #FFFFFF;
 }
@@ -222,7 +228,7 @@ body {
 	font-family: Roboto-Light;
 }
 .daily-report-left {
-	height:640px;
+	height:610px;
 	width: 477px;
 	margin-left: 390px;
 	float: left;
@@ -237,7 +243,7 @@ body {
 	line-height: 19px;
 	padding-top: 16px;
 }
-.text-lorem-02 {
+.text-lorem-report {
 	display: inline-block;
 	height: 168px;
 	width: 475px;
@@ -254,7 +260,7 @@ body {
 }
 .daily-report-right img {
 	width: 858px;
-	height: 777px;
+	height: 680px;
 }
 .select-icon {
 	height: 322px;
@@ -378,9 +384,9 @@ body {
 }
 .marks-left-member {
 	height: 634px;
-    width: 560px;
-    margin-left: 390px;
-    float: left;
+	width: 560px;
+	margin-left: 390px;
+	float: left;
 }
 .mark-customers {
 	height: 663px;
@@ -467,21 +473,21 @@ body {
 }
 .marks-right-project {
 	float: left;
-	width: 660px;
+	width: 615px;
 	margin-left: 131.3px;	
 }
 .marks-right-project img {
 	width: 858px;
-	height: 636px;
+	height: 615px;
 }
-.mask-footer {
+.mark-footer {
 	height: 180px;
 	width: 1920px;
 	border: 1px solid #ECEFF1;
 	background-color: #39474E;
 	box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
 }
-.mask-footer-column-1 {
+.mark-footer-column-1 {
 	margin-top: 45px;
 	margin-left: 389px;
 	float: left;
@@ -516,7 +522,7 @@ body {
 	font-weight: 500;
 	line-height: 20px;
 }
-.mask-footer-column-2 {
+.mark-footer-column-2 {
 	margin-top: 54px;
 	margin-left: 100px;
 	float: left;
@@ -537,7 +543,7 @@ body {
 	font-size: 13px;
 	float: left;
 }
-.mask-footer-contact {
+.mark-footer-contact {
 	margin-left: 1365px;
 	margin-top: 108px;
 }
@@ -599,12 +605,12 @@ body {
 	background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
 }
 .btn-sign-in:hover {
-	background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
-	color: white;
+  background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
+ 	color: white;
 }
 .font-general-medium {
-	font-family: Roboto-Medium;
+  font-family: Roboto-Medium;
 }
 .font-general-light {
-	font-family: Roboto-Light;
+  font-family: Roboto-Light;
 }
