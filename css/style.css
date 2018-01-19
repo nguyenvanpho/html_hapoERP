@@ -165,13 +165,13 @@ body {
 	font-family: Roboto-Medium;
 }
 .text-lorem {
-	display:inline-block;
+	display: inline-block;
 	height: 168px;
 	width: 555px;
 	color: #283238;
 	font-size: 13px;
 	line-height: 24px;
-	text-align:justify;
+	text-align: justify;
 	padding-top: 38px;
 	font-family: Roboto-Medium;
 } 
@@ -242,13 +242,13 @@ body {
 	font-family: Roboto-Medium;
 }
 .text-lorem-02 {
-	display:inline-block;
+	display: inline-block;
 	height: 168px;
 	width: 475px;
 	color: #283238;
 	font-size: 13px;
 	line-height: 24px;
-	text-align:justify;
+	text-align: justify;
 	padding-top: 30px;
 	font-family: Roboto-Medium;
 }
@@ -318,7 +318,7 @@ body {
 .daily-report-five {
 	margin-left: 63px;
 }
-.ti-user{
+.ti-user {
 	float: left;
 	height: 36px;	
 	width: 36px;	
