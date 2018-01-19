@@ -261,25 +261,25 @@ body {
 	width: 858px;
 	height: 777px;
 }
-.rectangle-3 {
+.select-icon {
 	height: 322px;
 	width: 1920px;
 	background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
-.rectangle-3 ul {
+.select-icon ul {
 	padding: 0px;
 }
 .icon-daily-report {
 	margin-left: 391.75px;
 }
-.rectangle-3 ul li {
+.select-icon ul li {
 	list-style: none;
 	padding-right: 145px;
 	float: left;
 }
 .one {
 	padding-top: 68.75px;
-	height: 200px;
+	height: 132px;
 }
 .icon-one {
 	height: 36px;	
@@ -290,24 +290,33 @@ body {
 	margin-top: 35px;
 	margin-left: 33px;
 }
+.select-text {
+	height: 24px;
+	display: inline-block;
+	margin-left: 384px;
+	margin-top: 28.75px;
+}
 .daily-report-general {
+	display: inline-block;
 	height: 24px;
 	color: #FFFFFF;
 	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 1px;
 	line-height: 24px;
-	margin-top: 28.75px;
 	font-family: Roboto-Medium;
 }
 .daily-report-three {
-	margin-left:-27px;
+	margin-left: 122px;
+}
+.daily-report-two {
+	margin-left: 138px;
 }
 .daily-report-four {
-	margin-left:-38px;
+	margin-left: 65px;
 }
 .daily-report-five {
-	margin-left:-35px;
+	margin-left: 63px;
 }
 .ti-user{
 	float: left;
@@ -601,4 +610,7 @@ body {
 	margin-left: 586px;
 	margin-top: -18px;
 	font-family: Roboto-Light;
+}
+.start-now:hover {
+	background: linear-gradient(135deg, #B4EC51 0%,#429321 100%);
 }
